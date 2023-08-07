@@ -18,7 +18,7 @@ def download_video(url, save_path):
         print(f"Error downloading {url}: {str(e)}")
 
 # Specify the directory to save the videos
-save_directory = './My Files/Downloads'
+save_directory = 'path_to_save_videos'
 
 for url in video_urls:
     download_video(url, save_directory)
